@@ -1,0 +1,14 @@
+	EQ : Z Set
+	NE : Z Not Set
+	CS : Carry Set
+	CC : Carry Not Set
+	MI : Negative Set
+	PL : Negative Not Set
+	VS : Overflow Set
+	VC : Overflow Not Set
+	HI : Carry & !Zero
+	LS : !Carry & Zero
+	GE : Negative == Overflow
+	LT : Negative != Overflow
+	GT : !Zero && Negative = Overflow
+	LE : Zero || Negative != V
