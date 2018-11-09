@@ -20,7 +20,7 @@ end:
   swi 0
 */
 
-/*
+
 .global _start
 _start:
   mov r4, #1
@@ -45,8 +45,9 @@ _start:
 end:
   mov r7, #1
   swi 0
-*/
 
+
+/*
 .global _start
 _start:
   mov r0, #two
@@ -57,3 +58,4 @@ end:
 
 .data
 .equ two, 2
+*/
