@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 __global__ void mykernel(void) {
-  printf("Hello kernel\n");
+  while(1)
+    printf("Hello kernel\n");
 }
 
 int main(void) {
-  mykernel<<<2,2>>>();
+  mykernel<<<222,222>>>();
+  while(1)
   printf("Hello World!\n");
   return 0;
 }
