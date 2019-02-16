@@ -1,49 +1,40 @@
 /*
  * main.cpp
  *
- *  Created on: 13-Jun-2018
- *      Author: dubeyalo
+ *  Created on: 09-Feb-2019
+ *      Author: napster
  */
 
 #include <stdio.h>
 
+//extern int MissingNumberInArray();
+//extern int LongestIncreasingSubsequence();
+//extern int KeyPair();
+//extern int SubarrayWithGivenSum();
+//extern int checkBST();
+//extern int RootToLeafPathSum();
+//extern int EggDrop();
+//extern int MaximumLengthChainOfPairs();
+//extern int BoxStackingProblem();
+//extern int MaximumSumRectangleInA2DMatrix();
+//extern int LongestPalindromicSubsequence();
+extern int SpecialStack();
 
-#if 1
-//extern void verticalTreePrint();
-//extern void SmallestRangeInKlists();
-//extern void PrintAllNodesThatDontHaveSibling();
-//extern void MaximumTipCalculator();
-//extern void MaximumDifferenceBetweenNodeAndItsAncestor();
-//extern void WordBoggle();
-//extern void InPreBST();
-//extern void MirrorBT();
-//extern void DijkstraAlgorithmForAdjacencyListRepresentation();
-//extern int LCA(void);
-//extern int Allocator();
-//extern int CheckSquare();
-//extern int CheckIfStringIsRotatedByTwoPlaces();
-//extern int OverlappingRectangles();
-extern int EqualToProduct();
 int main()
 {
-	freopen("/home/dubeyalo/workspace/geeks/inputs.txt","r", stdin);
-	//verticalTreePrint();
-	//SmallestRangeInKlists();
-	//PrintAllNodesThatDontHaveSibling();
-	//MaximumTipCalculator();
-	//MaximumDifferenceBetweenNodeAndItsAncestor();
-	//WordBoggle();
-	//InPreBST();
-	//MirrorBT();
-	//DijkstraAlgorithmForAdjacencyListRepresentation();
-	//LCA();
-	//Allocator();
-	//CheckSquare();
-	//CheckIfStringIsRotatedByTwoPlaces();
-	//OverlappingRectangles();
-	EqualToProduct();
+	freopen("/home/napster/eclipse-workspace/geeks/input.txt","r", stdin);
+	//MissingNumberInArray();
+	//LongestIncreasingSubsequence();
+	//KeyPair();
+	//SubarrayWithGivenSum();
+	//checkBST();
+	//RootToLeafPathSum();
+	//EggDrop();
+	//MaximumLengthChainOfPairs();
+	//BoxStackingProblem();
+	//MaximumSumRectangleInA2DMatrix();
+	//LongestPalindromicSubsequence();
+	SpecialStack();
 	return 0;
 }
 
-
-#endif
